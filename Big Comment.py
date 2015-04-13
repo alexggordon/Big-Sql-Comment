@@ -13,7 +13,6 @@ class InsertBigCommentText(sublime_plugin.TextCommand):
     self.view.insert(edit, self.view.sel()[0].begin(), args['comment'])
 
 class BigComment(threading.Thread):
-    """docstring for BigComment"""
     def __init__(self, view, args):
         self.view = view
         self.args = args
@@ -32,7 +31,7 @@ class BigComment(threading.Thread):
         dashes = chars * '-'
         dashes_and_comment = '-- ' + comment_text.upper() + ' --'
 
-        big_comment = dashes + '\n' + dashes_and_comment + '\n' + dashes
+        big_comment = dashes + '\n' + dashes_and_comment + '\n' + dashes + '\n' + '\n' 
         self.view.run_command("insert_big_comment_text", {"args":{'comment':big_comment}})
 
 class PromptUser(threading.Thread):
