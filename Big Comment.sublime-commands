@@ -1,0 +1,6 @@
+[
+  {
+      "caption": "Insert a Big Sql Comment",
+      "command": "insert_big_comment"
+  }
+]
