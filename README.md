@@ -10,3 +10,9 @@ By running "Insert a Big Sql Comment", this
     -------------
 
 is inserted. 
+
+
+## Installation 
+## OS X
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+git clone https://github.com/alexggordon/Big-Sql-Comment.git BigSqlComment
