@@ -15,4 +15,4 @@ is inserted.
 ## Installation 
 ## OS X
     cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-    git clone git@github.com/alexggordon/Big-Sql-Comment.git BigSqlComment
+    git clone git@github.com/alexggordon/Big-Sql-Comment.git Big-Sql-Comment
